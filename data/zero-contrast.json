@@ -1,0 +1,113 @@
+{
+  "lag_max": 3,
+  "center": 20,
+  "scale": 10,
+  "beta": [
+    0.08,
+    -0.03,
+    0.02,
+    0.01
+  ],
+  "covariance": [
+    [
+      0.0004,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0.0009,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0.0001,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "daily": [
+    {
+      "day": "2021-12-27",
+      "temperature": 18,
+      "counterfactual": 18,
+      "count": 10
+    },
+    {
+      "day": "2021-12-28",
+      "temperature": 20,
+      "counterfactual": 20,
+      "count": 11
+    },
+    {
+      "day": "2021-12-29",
+      "temperature": 23,
+      "counterfactual": 23,
+      "count": 12
+    },
+    {
+      "day": "2021-12-30",
+      "temperature": 29,
+      "counterfactual": 29,
+      "count": 10
+    },
+    {
+      "day": "2021-12-31",
+      "temperature": 32,
+      "counterfactual": 32,
+      "count": 11
+    },
+    {
+      "day": "2022-01-01",
+      "temperature": 31,
+      "counterfactual": 31,
+      "count": 12
+    },
+    {
+      "day": "2022-01-02",
+      "temperature": 28,
+      "counterfactual": 28,
+      "count": 10
+    },
+    {
+      "day": "2022-01-03",
+      "temperature": 22,
+      "counterfactual": 22,
+      "count": 11
+    },
+    {
+      "day": "2022-01-04",
+      "temperature": 20,
+      "counterfactual": 20,
+      "count": 12
+    },
+    {
+      "day": "2022-01-05",
+      "temperature": 19,
+      "counterfactual": 19,
+      "count": 10
+    }
+  ],
+  "constant_contrasts": [
+    {
+      "temperature": 30,
+      "reference": 20
+    },
+    {
+      "temperature": 20,
+      "reference": 20
+    }
+  ],
+  "confidence_z": 1.95996398454,
+  "draws": 999,
+  "seed": 71,
+  "psd_tolerance": 1e-12
+}
